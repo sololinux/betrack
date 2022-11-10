@@ -1,0 +1,18 @@
+{
+  "name": "betrack",
+  "version": "1.0.0",
+  "description": "real time tracking app",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "solo.linux",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "socket.io": "^4.5.3"
+  }
+}

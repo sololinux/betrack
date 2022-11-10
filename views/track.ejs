@@ -1,0 +1,27 @@
+<%- include("./includes/head.ejs") %>
+
+  <div class="outerMap" id="outerMap">
+    <div class="outertxtBox">
+      <div class="outertxt">
+        <p id="uptxt">Enter Tracking ID</p>
+        <form id="form">
+          <p id="inv" class="inv"></p>
+          <input type="text" placeholder="GD56YS5R" id="inputTrack" autocomplete="off" required><br>
+          <input type="submit" id="startTrack" value="Start Track">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="trackDataBox" id="trackDataBox">
+    <p id="host">Host: <span id="stat">____</span></p><button id="stopTrack">Stop</button>
+  </div>
+
+  </div>
+
+  <p id="startTracked"></p>
+  <p id="stopTracked"></p> 
+  <p id="stat"></p>
+  <p id="trackDataBox"></p>
+  <p id="stopTrack"></p> 
+  <%- include("./includes/end.ejs") %>

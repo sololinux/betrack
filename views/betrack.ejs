@@ -1,0 +1,30 @@
+<%- include("./includes/head.ejs") %>
+
+  <div class="outerMap">
+    <div class="outertxtBox">
+      <div class="outertxt">
+        <p id="uptxt">Are you ready for Tracked.....</p>
+        <div id="links">
+          <p id="tolink">TrackingID: <span id="getid">______</span><button id="copybtn" onclick="copy()">Copy</button></p>
+          <button id="startTracked">Start</button>
+          <button id="stopTracked">Stop</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <script>
+    function copy() {
+      var copyText = document.getElementById("getid").textContent;
+      navigator.clipboard.writeText(copyText);
+      setTimeout(()=>alert(`Copied TrackingID: ${copyText}`), 30)
+    }
+  </script>
+
+  <p id="form"></p>
+  <p id="stat"></p>
+  <p id="trackDataBox"></p>
+  <p id="stopTrack"></p>
+  <%- include("./includes/end.ejs") %>
