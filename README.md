@@ -2,7 +2,7 @@
 <br/>
 <div>
   <h2>Description</h2>
-  <p>beTrack is a real-ime tracking webapp developed in nodejs and other tech like socket.io -real_time_integration and leaflet.js -map_plugin
+  <p>beTrack is a real-time tracking webapp developed in nodejs and other tech like socket.io -real_time_integration and leaflet.js -map_plugin
 </p>
 </div>
 <br/>
